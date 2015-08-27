@@ -1,5 +1,5 @@
-# Website-Base
-Base for Starting a Website using Gulp for SASS, Html Includes, JS Combine+min & Live Browser Sync.
+# Stz Facebook App
+Base Template for Facebook App for Stz
 
 Install Guide -
-npm install --save-dev gulp gulp-browserify gulp-compass gulp-concat gulp-file-include gulp-rename gulp-uglify gulp-util del browser-sync jquery
+npm install --save-dev gulp gulp-browserify gulp-compass gulp-concat gulp-file-include gulp-rename gulp-uglify gulp-util del browser-sync jquery handlebars gsap
