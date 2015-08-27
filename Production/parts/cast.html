@@ -1,0 +1,23 @@
+<script id="cast-template" type="text/template">
+	<ul class="cast-bios animate" speed=".5" type="from" options="opacity:0,delay:.5">
+		{{#cast}}
+			<li class="cast-bio">
+				<div class="cast-image" style="background-image:url(images/cast/{{safename}}_l.jpg)"></div>
+				<div class="cast-copy">
+					<div class="name">{{name}}</div>
+					<div class="actor">Played By {{actor}}</div>
+					<div class="bio">{{{bio}}}</div>
+				</div>
+			</li>
+		{{/cast}}
+	</ul>
+	<div class="cast-arrows animate" speed=".5" type="from" options="opacity:0,delay:0">
+		<a href="javascript:void(0);" class="next-btn"></a>
+		<a href="javascript:void(0);" class="prev-btn"></a>
+	</div>
+	<ul class="cast-thumbs animate" speed=".5" type="staggerFrom" options="opacity:0,top:100" stagger=".1">
+		{{#cast}}
+			<li><a class="cast-thumb" href="javascript:void(0);" style="background-image:url(images/cast/{{safename}}_t.jpg)" n="{{@index}}"></a></li>
+		{{/cast}}
+	</ul>
+</script>

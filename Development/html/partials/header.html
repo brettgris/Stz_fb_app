@@ -1,0 +1,15 @@
+<div class="header">
+	<a class="showta" href="javascript:void(0);" path="5"></a>
+	<ul class="nav">
+		<script id="nav-item" type="text/template">
+			{{#pages}}
+				{{#menu}}<li><a href="javascript:void(0);" path="{{@index}}">{{name}}</a></li>{{/menu}}
+			{{/pages}}
+		</script>
+	</ul>
+	<ul class="socialicons">
+		<li><a class="invite" href="javascript:void(0)" onClick="ga('send', 'event', 'Social', 'click', 'Invite');"></a></li>
+		<li><a class="share" href="javascript:void(0)" onClick="ga('send', 'event', 'Social', 'click', 'Share');"></a></li>
+		<li><a class="tweet" href="javascript:void(0)" onClick="ga('send', 'event', 'Social', 'click', 'Tweet');"></a></li>
+	</ul>
+</div>

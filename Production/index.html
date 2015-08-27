@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+<meta name="description" content="Blunt Talk"/>
+<meta property="og:url" content="https://www.starz.com/sc/features/blunttalk/facebook/generic/index.html" />
+<meta property="og:title" content="Blunt Talk" />
+<meta property="og:description" content="Exclusive content from Blunt Talk, premiering on STARZ August 22 at 9PM ET/PT." />
+<meta property="og:image" content="https://www.starz.com/sc/features/blunttalk/facebook/generic/img/111x7f.jpg"/>
+
+<title>Blunt Talk</title>
+
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+		
+
+</head>
+<body>
+	<div class="wrapper"> 
+	   	<!-- HEADER -->
+		<div class="header">
+	<a class="showta" href="javascript:void(0);" path="5"></a>
+	<ul class="nav">
+		<script id="nav-item" type="text/template">
+			{{#pages}}
+				{{#menu}}<li><a href="javascript:void(0);" path="{{@index}}">{{name}}</a></li>{{/menu}}
+			{{/pages}}
+		</script>
+	</ul>
+	<ul class="socialicons">
+		<li><a class="invite" href="javascript:void(0)" onClick="ga('send', 'event', 'Social', 'click', 'Invite');"></a></li>
+		<li><a class="share" href="javascript:void(0)" onClick="ga('send', 'event', 'Social', 'click', 'Share');"></a></li>
+		<li><a class="tweet" href="javascript:void(0)" onClick="ga('send', 'event', 'Social', 'click', 'Tweet');"></a></li>
+	</ul>
+</div>
+			
+		<!-- CONTENT -->
+		<div class="content">
+	<script id="section-item" type="text/template">
+		{{#pages}}
+			<div class="section {{name}}" id="section{{@index}}" path="{{path}}" style="background:{{background}};"></div>
+		{{/pages}}
+	</script>
+</div>
+	      
+		<!-- FOOTER -->
+		<div class="footer">
+	<a class="logo" href="http://www.starz.com/blunttalk" target="_blank"></a>
+	<p>STARZ and related channels and services marks are the property of Starz Entertainment, LLC. Blunt Talk &copy; 2015 MRC II Distribution Company, LP. All rights reserved.</p>    
+</div>
+	</div>
+	    
+	<div id="fb-root"></div>
+	<script type="text/javascript" src="js/app.min.js"></script>
+</body>
+</html>
